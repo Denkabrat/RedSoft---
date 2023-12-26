@@ -20,6 +20,7 @@ const Header = () => {
       
     if(localData){
       setIsAuth(false);
+      localStorage.removeItem('user');
       toastSuccess('Вы вышли из аккаунта')
     }
   }
