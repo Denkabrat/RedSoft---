@@ -6,7 +6,7 @@ const TreeView = ({ rootChildren }:TreeViewProps) => {
  
 
   return (
-    <div>
+    <div className='tree-view'>
       {rootChildren?.map((node) => (
         <TreeNode key={node.key} node={node} />
       ))}

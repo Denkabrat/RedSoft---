@@ -4,7 +4,7 @@ import './MainPage.scss';
 const MainPage = ( ) => {
   return (
     <div>
-       <h1 style={{marginTop:100}}>Здесь должен был быть контент</h1>
+       <h1 className='main-title'>Здесь должен был быть контент</h1>
     </div>
   )
 }

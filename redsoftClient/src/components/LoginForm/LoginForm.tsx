@@ -22,6 +22,8 @@ const LoginForm = ({onSwitch}:LoginFormProps) => {
     
       const localData = localStorage.getItem('user');
       const storedUser = localData ? JSON.parse(localData) : null;
+
+
       
       if(localData && (storedUser.email === email && storedUser.password === password)){
         setIsAuth(true);
